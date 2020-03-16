@@ -2,11 +2,11 @@
 
 p {
 	color: #666666;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 h1 {
-    font-family: Georgia, "Times New Roman", serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 #container{
@@ -55,7 +55,7 @@ li {
 
 body {
 	font-size: 1em;
-	font-family: 'Merriweather Sans', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	color: ##C0C0C0;
 	background: #ffffff;
 	padding-left: 5%;
