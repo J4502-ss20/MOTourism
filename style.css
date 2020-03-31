@@ -12,7 +12,9 @@ h1 {
 #container{
     width: 95%;
     margin: 0 auto;
+		text-decoration-color: white;
 }
+
 
 #nav {
     padding: 0;
