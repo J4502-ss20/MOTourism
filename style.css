@@ -46,8 +46,15 @@ container {
 
 body p {
 	display: grid;
-	width: 60%;
+	width: 100%;
+}
 
+a img {
+	width: 100%;
+}
+
+p img {
+	width: 100%;
 }
 
 /* =================================
