@@ -220,6 +220,7 @@ H3{
 
 		.pullquote {
 		  display: none;
+			font-style: italic;
 		}
 
 		article {
@@ -268,6 +269,7 @@ H3{
 
 		  .pullquote {
 		    display: block;
+				font-style: italic;
 		  }
 
 		}
@@ -301,6 +303,7 @@ H3{
 		 }
 
 		 .pullquote {
+			 font-style: italic;
 		   margin-top: 0;
 		   grid-area: e;
 		 }
