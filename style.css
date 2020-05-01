@@ -337,16 +337,18 @@ H3{
 		      ". d d ."
 		  }
 		}
+		.social {
+  display: flex;
+}
 .footer {
-	background-color: white;
-	margin: 10px;
-	height: 110px;
-	text-align: center;
-	padding: 15px;
+  display: flex;
+  flex-direction: row;
+	justify-content: center;
 	align-items: center;
-
+	max-width: 20px;
 }
 
+}
 
 .social {
 	padding: 0px;
@@ -358,7 +360,16 @@ H3{
 .social {
 	color: white
 }
-
+.footer {
+	background-color: white;
+	max-width: 50%;
+	bottom : 2;
+	padding-bottom: 0;
+	height : 40px;
+	margin-top : 40px;
+	margin: auto;
+	width: 50%;
+	text-align: center;
 
 }
 
