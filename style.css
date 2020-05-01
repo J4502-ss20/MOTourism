@@ -33,11 +33,7 @@ li {
   list-style-type: none;
 }
 
-footer p {
-	display: flex;
-	justify-content: center;
 
-}
 
 container {
 	text-decoration: none;
@@ -341,6 +337,27 @@ H3{
 		      ". d d ."
 		  }
 		}
+.footer {
+	background-color: white;
+	margin: 10px;
+	height: 110px;
+	text-align: center;
+	padding: 15px;
+	align-items: center;
+}
+
+
+.social {
+	padding: 0px;
+	width: 40px;
+	text-decoration: none;
+	text-align: center;
+	align-items: center;
+}
+.social {
+	color: white
+}
+
 
 
 		/* ====================================================
