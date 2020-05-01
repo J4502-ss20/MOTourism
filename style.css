@@ -7,6 +7,7 @@ p {
 
 h1 {
     font-family: 'Raleway', sans-serif;
+		font-size: 2em;
 }
 
 #container{
@@ -111,14 +112,29 @@ body {
 		flex-direction: row;
 		justify-content: center;
 	}
+	.logo {
+		display: none;
+	}
+
 }
 
 @media (min-width: 800px) {
 }
 
+@media (max-width: 800px) {
+	.authorbox img {
+		width: 25%; }
+}
+
+@media (max-width: 600px) {
+	.authorbox img {
+		display: none; }
+}
+
+
 H2{
-	text-align:center;
-	font-size: 25px;
+	text-align:left;
+	font-size: 18px;
 	font-family: 'Raleway', sans-serif;
 }
 
@@ -220,13 +236,13 @@ H3{
 		}
 
 		article {
-		  margin-bottom: 0.7em;filter:
-		  border-bottom: 1px solid #ccc;
+			line-height: 1.5em;
+			margin: 15px;
+		  margin-bottom: 2.7em;filter;
+		  border-bottom: 1px solid #000000;
 		}
 
-		article:last-of-type {
-		  border-bottom: none;
-		}
+
 
 		@media screen and (min-width: 450px) {
 		  nav ul {
