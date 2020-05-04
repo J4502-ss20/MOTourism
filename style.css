@@ -248,6 +248,7 @@ H3{
 		  nav ul {
 		     flex-flow: row;
 		     justify-content: space-between;
+				 flex-wrap: wrap;
 		  }
 		}
 
